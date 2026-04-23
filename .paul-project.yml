@@ -2,7 +2,6 @@ policy_profile: flat
 policy_version: 1.0.0
 code_paths:
   - ".paul-project.yml"
-  - "pyproject.toml"
   - "VERSION"
   - "**/*.md"
   - "**/*.yml"
