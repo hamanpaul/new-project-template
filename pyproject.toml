@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "new-project-template-bootstrap"
+version = "0.0.0"
+description = "Bootstrap metadata for the hamanpaul/new-project-template policy workflow"
+requires-python = ">=3.11"
+dependencies = [
+  "policy-check @ git+https://github.com/hamanpaul/paulsha-conventions@dbde416e3595593645799970bd3f9ad3bb05cfe9",
+]
+
+[tool.setuptools]
+py-modules = []
