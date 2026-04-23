@@ -10,6 +10,7 @@
 ### Added
 - 建立 `hamanpaul/new-project-template` 新專案 bootstrap skeleton
 - 新增釘選到 `hamanpaul/paulsha-conventions` 的 `Policy Check` reusable workflow
+- 新增最小化 `pyproject.toml`，讓 shared workflow 可安裝 `policy_check`
 - 新增同步的 agent convention files 與基本 policy metadata
 
 ### Changed
