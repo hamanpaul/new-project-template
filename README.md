@@ -4,11 +4,11 @@
 
 ## Install
 
-Use GitHub template creation or `gh repo create --template hamanpaul/new-project-template` to start a new repository. After generation, review `.paul-project.yml`, `pyproject.toml`, `README.md`, `CHANGELOG.md`, and `VERSION` before the first pull request.
+Use GitHub template creation or `gh repo create --template hamanpaul/new-project-template` to start a new repository. After generation, review `.paul-project.yml`, `README.md`, `CHANGELOG.md`, and `VERSION` before the first pull request.
 
 ## Usage
 
-This template keeps the bootstrap minimal: policy metadata, changelog/version scaffolding, synchronized agent convention files, a lightweight `pyproject.toml` for the shared workflow dependency, and a pinned `Policy Check` workflow. In generated repositories, run `python3 -m policy_check --repo .` before opening a pull request, then replace or extend the bootstrap metadata as the real project tooling becomes clear.
+This template keeps the bootstrap minimal: policy metadata, changelog/version scaffolding, synchronized agent convention files, and a pinned `Policy Check` workflow. In generated repositories, run `python3 -m policy_check --repo .` before opening a pull request, then replace or extend the bootstrap metadata as the real project tooling becomes clear.
 
 ## Version
 
