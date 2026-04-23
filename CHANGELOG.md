@@ -13,7 +13,7 @@
 - 新增同步的 agent convention files 與基本 policy metadata
 
 ### Changed
-- 無
+- `Policy Check` workflow 改為雙重釘選 `hamanpaul/paulsha-conventions@c5217b581a17c77dbef355491f5b09be83b998c8`，同步設定 reusable workflow `uses:` 與 `policy_engine_ref`
 
 ### Fixed
 - 移除超出需求範圍的 `pyproject.toml` 與相關 package 化敘述
